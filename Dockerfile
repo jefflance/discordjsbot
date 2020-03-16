@@ -23,9 +23,7 @@ ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
 # Install NodeJS Dependencies
-RUN npm install discord.js @discordjs/opus \
-    && npm install zlib-sync \
-    && npm install discordapp/erlpack \
+RUN npm install discord.js \
     && npm install utf-8-validate \
     && npm install node-opus \
     && npm install bufferutil \
